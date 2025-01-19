@@ -14,7 +14,7 @@ Domino's aims to enhance its inventory management process by predicting future p
 ## Skills Takeaway
 - **Data Cleaning and Preprocessing**: Handling missing values, outliers, and inconsistencies.
 - **EDA**: Discovering insights from historical sales data.
-- **Time Series Forecasting**: Utilizing models like ARIMA, SARIMA, Prophet, and LSTM.
+- **Time Series Forecasting**: Utilizing models like ARIMA, SARIMA, Prophet.
 - **Predictive Modeling**: Building accurate sales prediction systems.
 - **Business Decision-Making**: Creating actionable insights for inventory and supply chain management.
 - **Real-World Application**: Applying data science to solve industry-specific challenges.
