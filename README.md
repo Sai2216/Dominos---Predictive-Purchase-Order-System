@@ -26,8 +26,8 @@ Domino's aims to enhance its inventory management process by predicting future p
 2. **Ingredient Data**: A dataset listing the ingredients required for each pizza type, along with their respective quantities.
 
 ### Dataset Sources:
-- [Pizza Sales Dataset](https://github.com/pavankethavath/Dominos---Predictive-Purchase-Order-System/blob/main/Pizza_Sale%20-%20pizza_sales.csv)
-- [Pizza Ingredients Dataset](https://github.com/pavankethavath/Dominos---Predictive-Purchase-Order-System/blob/main/Pizza_ingredients%20-%20Pizza_ingredients.csv)
+- [Pizza Sales Dataset](https://github.com/Sai2216/Dominos---Predictive-Purchase-Order-System/blob/main/Pizza_Sale%20-%20pizza_sales.csv)
+- [Pizza Ingredients Dataset](https://github.com/Sai2216/Dominos---Predictive-Purchase-Order-System/blob/main/Pizza_ingredients%20-%20Pizza_ingredients.csv)
 
 ---
 ## Domain
@@ -51,26 +51,25 @@ Domino's aims to enhance its inventory management process by predicting future p
 - **Visualized trends and patterns** such as top-selling pizzas, sales by day of the week/month, and peak hours.
 - Identified seasonality and variability in sales data.
  
-![CHEESE!](./Images/Sales_Trends.png)
+![CHEESE!](https://github.com/Sai2216/Dominos---Predictive-Purchase-Order-System/blob/main/Images/Sales_Trends.png)
 
 
-![CHEESE!](./Images/monthly_trend.png)
+![CHEESE!](https://github.com/Sai2216/Dominos---Predictive-Purchase-Order-System/blob/main/Images/Monthly_trend.png)
 
  
-![CHEESE!](./Images/weekly_trend.png)
+![CHEESE!](https://github.com/Sai2216/Dominos---Predictive-Purchase-Order-System/blob/main/Images/weekly_trend.png)
 
-![CHEESE!](./Images/peak_hours.png)
+![CHEESE!](https://github.com/Sai2216/Dominos---Predictive-Purchase-Order-System/blob/main/Images/peak_hours.png)
 
-![CHEESE!](./Images/top_selling.png)
+![CHEESE!](https://github.com/Sai2216/Dominos---Predictive-Purchase-Order-System/blob/main/Images/top_selling.png)
 
 ### 3. Model Development and Comparison
 Implemented and compared four forecasting models:
 - **ARIMA**: Showed a flat trend, underperforming in variability capture.
--   ![CHEESE!](./Images/ACP_PACF.png)
+-   ![CHEESE!](https://github.com/Sai2216/Dominos---Predictive-Purchase-Order-System/blob/main/Images/ACP_PACF.png)
 - **SARIMA**: Better seasonality capture, but lagged during sudden demand changes.
 - **Prophet**: Best model with the lowest MAPE, effectively handling trends and seasonality.
-  ![CHEESE!](./Images/prophet.png)
-- **LSTM**: Neural network approach struggled with variability but remains promising for larger datasets.
+  ![CHEESE!](https://github.com/Sai2216/Dominos---Predictive-Purchase-Order-System/blob/main/Images/prophet.png)
 
 ### 4. Forecasting Sales
 - Using Prophet, forecasted daily pizza sales for 91 pizza types over a 7-day period.
@@ -78,7 +77,8 @@ Implemented and compared four forecasting models:
 ### 5. Ingredient Calculation
 - Calculated required quantities for each ingredient using the forecasted sales and ingredient dataset.
 - Generated a **Purchase Order** summarizing ingredient requirements.
-  ![CHEESE!](./Images/pruchase_order.png)
+  
+  ![CHEESE!](https://github.com/Sai2216/Dominos---Predictive-Purchase-Order-System/blob/main/Images/purchase_order.png)
 ---
 
 ## Results
@@ -90,7 +90,7 @@ Implemented and compared four forecasting models:
 
 ## Technologies Used
 - **Languages & Libraries**: Python, Pandas, NumPy, Matplotlib, Seaborn, Statsmodels, TensorFlow, Prophet.
-- **Models**: ARIMA, SARIMA, Prophet, LSTM.
+- **Models**: ARIMA, SARIMA, Prophet
 - **Metrics**: MAPE (Mean Absolute Percentage Error).
 
 ---
